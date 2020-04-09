@@ -1,0 +1,5 @@
+airflow: 
+    service: 
+      type: "NodePort"
+      nodePort: 
+        http: "30000"
