@@ -3,3 +3,5 @@ airflow:
       type: "NodePort"
       nodePort: 
         http: "30000"
+ingress:
+    enabled: false
