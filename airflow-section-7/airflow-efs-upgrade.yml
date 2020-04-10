@@ -1,0 +1,7 @@
+persistence:
+    enabled: true
+    existingClaim: "efs"
+		accessMode: "ReadWriteMany"
+dags:
+	initContainer:
+		enabled: false
