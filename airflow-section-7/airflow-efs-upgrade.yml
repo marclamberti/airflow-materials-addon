@@ -1,7 +1,7 @@
 persistence:
     enabled: true
     existingClaim: "efs"
-        accessMode: "ReadWriteMany"
+    accessMode: "ReadWriteMany"
 dags:
     initContainer:
         enabled: false
